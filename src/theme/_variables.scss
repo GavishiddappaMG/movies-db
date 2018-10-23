@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+// color scheme
+$color-primary:             #6dc24b;
+$color-secondary:           #00a2e2;
+$color-danger:              #ff0000;
+$color-warning:             #ff9900;
+$white:                     #ffffff;
+$header-bg:                 #29363d;
+
+// font family
+$base-font-family:            'Montserrat', sans-serif;
+
+// font base
+$font-size-base:              1rem;
+$font-size-lg:                ($font-size-base * 1.25);
+$font-size-sm:                ($font-size-base * .875);
+
+// font weight
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-medium:          500;
+$font-weight-semi-bold:       600;
+$font-weight-bold:            700;
