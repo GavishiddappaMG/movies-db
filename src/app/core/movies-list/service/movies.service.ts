@@ -10,7 +10,7 @@ export class MoviesService {
 
 
   searchMovies(movieName: string) {
-    const param = new HttpParams().set('query', movieName).set('language', environment.language);
+    const param = new HttpParams().set('api_key', environment.apiToken).set('query', movieName).set('language', environment.language);
     const url = environment.apiendpoint + 'search/multi';
     return this.httpClient.get(url, { params: param});
   }
