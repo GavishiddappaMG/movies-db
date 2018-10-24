@@ -1,0 +1,13 @@
+@import 'src/theme/variables';
+
+.search-input {
+    input[type="text"] {
+        height: 100%;
+        width: 100%;
+        border-radius: 8px;
+    }
+    input[type="text"]:hover,
+    input[type="text"]:active {
+        outline: 2px solid $color-primary;
+    }
+}

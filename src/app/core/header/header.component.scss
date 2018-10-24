@@ -1,0 +1,56 @@
+@import 'src/theme/variables';
+
+.header-content {
+    background-color: $header-bg;
+    height: 5rem;
+    margin: 0;
+    .pull-right {
+        float: right;
+        border: none
+    }
+    .search {
+        width: 100%;
+        height: 100%;
+        float: right;
+        margin: auto 1rem;
+        // ::ng-deep .search-input {
+        //     height: 2rem;
+        // }
+    }
+    .btn-primary {
+        background-color: $color-primary;
+        float: right;
+        width: 100%;
+        height: 90%;
+        margin: 0.25rem 1.25rem;;
+        color: $gray-200;
+        padding: 8px;
+        border: #328313;
+        border-radius: 5px;
+    }
+}
+.right-content 
+{
+    width: 100%;
+    height: 40px;  
+    float: left; 
+    padding: 7px; 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    .search-field {
+        width: 50%;
+        height: 100%;
+        padding: 10px;
+        ::ng-deep .search-input {
+            height: 90%;
+        }
+        
+    }
+    .search-btn {
+        width: 100px;
+        height: 100%;
+        padding: 10px;
+        margin-left: 50px;
+    }
+}
